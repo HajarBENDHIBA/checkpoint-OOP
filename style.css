@@ -1,0 +1,62 @@
+/* Body setup for flexbox */
+body {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Make sure the page takes full height */
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Light background */
+}
+
+/* Title styling */
+#page-title {
+    margin-top: 20px; /* Space from the top */
+    text-align: center; /* Center the title */
+    font-size: 2em; /* Bigger font for the title */
+    color: #333D56; /* Dark color for visibility */
+}
+
+/* Cart container styling */
+#cart-container {
+    width: 80%;
+    max-width: 600px;
+    padding: 20px;
+    background-color: white;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px; /* Space between title and cart container */
+}
+
+/* Cart item styling */
+.cart-item {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fafafa;
+}
+
+/* Cart total styling */
+.cart-total {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+/* Remove button styling */
+.remove-item {
+    background-color: #E58877;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 0.9em;
+}
+
+.remove-item:hover {
+    background-color: #333D56;
+}
